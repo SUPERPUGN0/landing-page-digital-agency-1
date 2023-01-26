@@ -1,0 +1,18 @@
+/* body {
+    display:flex
+    flex-wrap: wrap
+} */
+
+/* .background {
+    background-image: url(images/background.png);
+    background-size: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: 2px solid purple;
+} */
+
+.bg {
+    height: 500px;
+    margin: auto;
+}
