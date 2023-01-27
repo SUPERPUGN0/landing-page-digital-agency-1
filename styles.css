@@ -1,18 +1,55 @@
-/* body {
-    display:flex
-    flex-wrap: wrap
-} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* .background {
-    background-image: url(images/background.png);
-    background-size: 500px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin: auto;
-    border: 2px solid purple;
-} */
+.background {
+    display: flex;
+}
 
 .bg {
     height: 500px;
     margin: auto;
+}
+
+.first-section {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-row {
+    width: 80vw;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1 {
+   
+    color: white;
+    font-size: 4rem;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+}
+
+.first-p {
+    color: white;
+    text-align: center;
+    padding: 0 20%;
+    font-family: Poppins;
+}
+
+.first-button {
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(to right, #FF6400,#DA0000);
+    border: none;
+    font-family: Poppins;
 }
