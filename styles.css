@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* START RESET */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* END RESET */
+
 .background {
     display: flex;
 }
@@ -52,4 +62,37 @@ h1 {
     background: linear-gradient(to right, #FF6400,#DA0000);
     border: none;
     font-family: Poppins;
+}
+
+.second-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.card {
+    padding: 4rem 2rem;
+    margin: 2rem;
+    background-color: #16163C;
+    border-radius: 25px;
+    max-width: 25%;
+    font-family: Poppins;
+}
+
+.second-card {
+    background: linear-gradient(to right, #FF6400, #DA0000);
+}
+
+.third-section {
+    background-color: #191C26;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-us-columns{
+    max-width: 30%;
 }
