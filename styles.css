@@ -115,6 +115,9 @@ h1 {
     width: 50%;
     height: 200px;
     border: 5px solid yellow;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .third-column-fourth-section {
@@ -131,7 +134,7 @@ h1 {
 
 .service-card {
     border: 2px solid red;
-    background: rgb(255, 192, 192);
+    background-color: #16163C;
     width: 20%;
     height: 200px;
     margin: 10px;
@@ -181,4 +184,13 @@ h1 {
     justify-content: center;
     height: 200px;
     width: 70%;
+}
+
+.second-button {
+    width: 30%;
+}
+
+.second-column-fourth-section {
+    justify-content: center;
+    align-items: center;
 }
