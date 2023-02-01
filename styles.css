@@ -148,8 +148,31 @@ h1 {
 
 .portfolio-column {
     border: 4px solid brown;
-    height: 300px;
+    
     width: 40%;
+}
+
+.portfolio-column-1 {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio-column-2 {
+    padding: 2%;
+}
+
+.portfolio-img {
+    width: 30%;
+    display: inline-block;
+    padding: 1%;
+    
+}
+
+.portfolio-img img {
+    width: 100%;
+    border-radius: 10%;
 }
 
 .testimonial {
