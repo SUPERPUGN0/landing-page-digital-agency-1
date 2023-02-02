@@ -73,6 +73,15 @@ h1 {
     font-family: Poppins;
 }
 
+.button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(to right, #FF6400,#DA0000);
+    border: none;
+    font-family: Poppins;
+}
+
 .second-section {
     background-color: black;
     color: white;
@@ -198,22 +207,35 @@ h1 {
 
 .contact-us {
     border: 4px solid rgb(21, 255, 127);
-    display: flex;
-    justify-content: center;
+    width:100%;
+    margin: 0 auto;
 }
 
 .contactUs-column {
     border: 4px solid rgb(247, 21, 255);
-    justify-content: center;
-    height: 200px;
+    margin: 0 auto;
     width: 70%;
+    text-align: center;
 }
 
-.second-button {
-    width: 30%;
-}
+
 
 .second-column-fourth-section {
     justify-content: center;
     align-items: center;
 }
+
+textarea {
+    width: 100%;
+}
+
+input {
+    width: 30%;
+}
+
+/* form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
