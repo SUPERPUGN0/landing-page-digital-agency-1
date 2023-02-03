@@ -118,12 +118,13 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
+    padding: 5% 10%;
 }
 
 .first-column-fourth-section, .second-column-fourth-section {
     width: 50%;
     height: 200px;
-    border: 5px solid yellow;
     display: flex;
     flex-direction: column;
     
@@ -131,9 +132,8 @@ h1 {
 
 .third-column-fourth-section {
     width: 100%;
-    border: 5px solid yellow;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -142,22 +142,21 @@ h1 {
 }
 
 .service-card {
-    border: 2px solid red;
     background-color: #16163C;
     width: 20%;
-    height: 200px;
     margin: 10px;
+    padding: 0 2% 1%;
+    border-radius: 20px;;
 }
 
 .portfolio {
-    border: 4px solid green;
+    background-color: #191C26;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .portfolio-column {
-    border: 4px solid brown;
-    
     width: 40%;
 }
 
@@ -222,7 +221,7 @@ h1 {
 
 .second-column-fourth-section {
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 textarea {
@@ -239,3 +238,20 @@ input {
     justify-content: space-between;
 } */
 
+div.service-card img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+div.service-card h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+div.service-card p {
+    text-align: center;
+}
