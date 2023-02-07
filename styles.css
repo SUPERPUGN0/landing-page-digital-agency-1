@@ -28,7 +28,7 @@
 
 .first-row {
     width: 80vw;
-    background-image: url("/images/background.png");
+    background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: auto 70%;
     background-position: center;
@@ -41,7 +41,7 @@
 }
 
 h1 {
-   
+
     color: white;
     font-size: 4rem;
     font-family: Poppins, sans-serif;
@@ -59,7 +59,7 @@ h1 {
     padding: 20px 40px;
     border-radius: 30px;
     color: white;
-    background: linear-gradient(to right, #FF6400,#DA0000);
+    background: linear-gradient(to right, #FF6400, #DA0000);
     border: none;
     font-family: Poppins;
 }
@@ -68,7 +68,7 @@ h1 {
     padding: 15px 30px;
     border-radius: 30px;
     color: white;
-    background: linear-gradient(to right, #FF6400,#DA0000);
+    background: linear-gradient(to right, #FF6400, #DA0000);
     border: none;
     font-family: Poppins;
 }
@@ -77,7 +77,7 @@ h1 {
     padding: 15px 30px;
     border-radius: 30px;
     color: white;
-    background: linear-gradient(to right, #FF6400,#DA0000);
+    background: linear-gradient(to right, #FF6400, #DA0000);
     border: none;
     font-family: Poppins;
 }
@@ -122,22 +122,23 @@ h1 {
     padding: 5% 10%;
 }
 
-.first-column-fourth-section, .second-column-fourth-section {
+.first-column-fourth-section,
+.second-column-fourth-section {
     width: 50%;
     height: 200px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .third-column-fourth-section {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
 
-.about-us-columns{
+.about-us-columns {
     max-width: 30%;
 }
 
@@ -146,7 +147,8 @@ h1 {
     width: 20%;
     margin: 10px;
     padding: 0 2% 1%;
-    border-radius: 20px;;
+    border-radius: 20px;
+    ;
 }
 
 .portfolio {
@@ -175,7 +177,7 @@ h1 {
     width: 30%;
     display: inline-block;
     padding: 1%;
-    
+
 }
 
 .portfolio-img img {
@@ -186,14 +188,14 @@ h1 {
 .testimonial {
     display: flex;
     justify-content: center;
-   flex-wrap: wrap;
-   background-color: black;
+    flex-wrap: wrap;
+    background-color: black;
 }
 
 .testimonial div {
-    
+
     height: 300px;
-    
+
 }
 
 .testimonial-column-1 {
@@ -205,19 +207,22 @@ h1 {
     color: white;
 }
 
-.testimonial-column-2, .testimonial-column-3 {
-        width: 40%;
-        background: linear-gradient(to right, #FF6400, #DA0000);
-        color: white;
-        border-radius: 20px;
-        margin: 10px;
-        padding: 1rem;
+.testimonial-column-2,
+.testimonial-column-3 {
+    width: 40%;
+    background: linear-gradient(to right, #FF6400, #DA0000);
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 1rem;
 }
 
 .contact-us {
     border: 4px solid rgb(21, 255, 127);
-    width:100%;
+    width: 100%;
     margin: 0 auto;
+    background-color: #191C26;
+    color: white;
 }
 
 .contactUs-column {
