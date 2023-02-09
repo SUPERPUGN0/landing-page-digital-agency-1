@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
 /* START RESET */
 
 * {
@@ -14,14 +13,18 @@
     display: flex;
 }
 
-.bg {
+body {
+    font-family: 'Poppins';
+}
+
+/* .bg {
     height: 500px;
     margin: auto;
-}
+} */
 
 .first-section {
     background-color: black;
-    height: 600px;
+    /* height: 600px; */
     display: flex;
     justify-content: center;
 }
@@ -30,9 +33,9 @@
     width: 80vw;
     background-image: url(images/background.png);
     background-repeat: no-repeat;
-    background-size: auto 70%;
+    background-size: auto 100%;
     background-position: center;
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,24 +46,16 @@
 h1 {
 
     color: white;
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: Poppins, sans-serif;
     margin: 0px;
+    font-weight: 800;
 }
 
 .first-p {
     color: white;
     text-align: center;
     padding: 0 20%;
-    font-family: Poppins;
-}
-
-.first-button {
-    padding: 20px 40px;
-    border-radius: 30px;
-    color: white;
-    background: linear-gradient(to right, #FF6400, #DA0000);
-    border: none;
     font-family: Poppins;
 }
 
@@ -82,11 +77,24 @@ h1 {
     font-family: Poppins;
 }
 
+button {
+    margin: 30px;
+}
+
+.first-button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(to right, #FF6400, #DA0000);
+    border: 3px solid white;
+    font-size: 1.2em;
+}
+
 .second-section {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 2rem;
 }
 
@@ -95,8 +103,17 @@ h1 {
     margin: 2rem;
     background-color: #16163C;
     border-radius: 25px;
-    max-width: 25%;
-    font-family: Poppins;
+    max-width: 20%;
+    font-size: 400;
+}
+
+.card h3 {
+    font-size: 1.8em;
+    line-height: 1;
+}
+
+.card p {
+    margin-top: 20px;
 }
 
 .second-card {
@@ -107,8 +124,18 @@ h1 {
     background-color: #191C26;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    padding: 80px;
+}
+
+.third-section h3 {
+    font-size: 3em;
+    line-height: 1.2;
+}
+
+.third-section p {
+    margin: 25px 0;
 }
 
 .fourth-section {
