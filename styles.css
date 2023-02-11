@@ -75,6 +75,9 @@ h1 {
     background: linear-gradient(to right, #FF6400, #DA0000);
     border: none;
     font-family: Poppins;
+    width: 10em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 button {
@@ -129,7 +132,7 @@ button {
     padding: 80px;
 }
 
-.third-section h3 {
+h3 {
     font-size: 3em;
     line-height: 1.2;
 }
@@ -146,7 +149,7 @@ button {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    padding: 5% 10%;
+    padding: 5% 20%;
 }
 
 .first-column-fourth-section,
@@ -162,6 +165,7 @@ button {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 10%;
 }
 
 
@@ -171,11 +175,11 @@ button {
 
 .service-card {
     background-color: #16163C;
-    width: 20%;
-    margin: 10px;
-    padding: 0 2% 1%;
+    width: 24%;
+    margin: 0px;
+    padding: 0 2% 5%;
     border-radius: 20px;
-    ;
+
 }
 
 .portfolio {
