@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
-/* START RESET */
+
+/* GLOBAL SETTINGS */
 
 * {
     margin: 0px;
@@ -7,26 +8,29 @@
     box-sizing: border-box;
 }
 
-/* END RESET */
-
-.background {
-    display: flex;
-}
-
-body {
+html {
     font-family: 'Poppins';
 }
 
-/* .bg {
-    height: 500px;
-    margin: auto;
-} */
+h1 {
 
-.first-section {
-    background-color: black;
-    /* height: 600px; */
-    display: flex;
-    justify-content: center;
+    color: white;
+    font-size: 6rem;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 3em;
+    line-height: 1.2;
+}
+
+.first-p {
+    color: white;
+    text-align: center;
+    padding: 0 20%;
+    font-family: Poppins;
 }
 
 .first-row {
@@ -43,30 +47,16 @@ body {
     align-content: center;
 }
 
-h1 {
-
-    color: white;
-    font-size: 6rem;
-    font-family: Poppins, sans-serif;
-    margin: 0px;
-    font-weight: 800;
+.fa-solid {
+    margin-bottom: 25px;
 }
 
-.first-p {
-    color: white;
-    text-align: center;
-    padding: 0 20%;
-    font-family: Poppins;
+.punto {
+    color: #FF6400;
+    font-size: 1.2em;
 }
 
-.second-button {
-    padding: 15px 30px;
-    border-radius: 30px;
-    color: white;
-    background: linear-gradient(to right, #FF6400, #DA0000);
-    border: none;
-    font-family: Poppins;
-}
+/* BUTTONS */
 
 .button {
     padding: 15px 30px;
@@ -78,9 +68,6 @@ h1 {
     width: 10em;
     font-size: 1.2em;
     font-weight: bold;
-}
-
-button {
     margin: 30px;
 }
 
@@ -93,6 +80,24 @@ button {
     font-size: 1.2em;
 }
 
+.second-button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(to right, #FF6400, #DA0000);
+    border: none;
+    font-family: Poppins;
+}
+
+
+/* SECTIONS */
+
+.first-section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
 .second-section {
     background-color: black;
     color: white;
@@ -101,6 +106,53 @@ button {
     padding: 2rem;
     padding: 5% 20%;
 }
+
+.third-section {
+    background-color: #191C26;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.fourth-section {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5% 20%;
+}
+
+.portfolio {
+    background-color: #191C26;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5% 20%;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 5% 20%;
+}
+
+.contact-us {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #191C26;
+    color: white;
+}
+
+
+
+
 
 .card {
     padding: 2.5rem 2rem;
@@ -124,34 +176,11 @@ button {
     background: linear-gradient(to right, #FF6400, #DA0000);
 }
 
-.third-section {
-    background-color: #191C26;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px;
-}
-
-h3 {
-    font-size: 3em;
-    line-height: 1.2;
-}
-
 .third-section p {
     margin: 25px 0;
 }
 
-.fourth-section {
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 5% 20%;
-}
+
 
 .first-column-fourth-section,
 .second-column-fourth-section {
@@ -183,13 +212,7 @@ h3 {
 
 }
 
-.portfolio {
-    background-color: #191C26;
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding: 5% 20%;
-}
+
 
 .portfolio-column {
     width: 50%;
@@ -215,13 +238,7 @@ h3 {
     border-radius: 10%;
 }
 
-.testimonial {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: black;
-    padding: 5% 20%;
-}
+
 
 .testimonial-column-1 {
     width: 100%;
@@ -250,12 +267,7 @@ h3 {
     margin: 10px;
 }
 
-.contact-us {
-    max-width: 100%;
-    margin: 0 auto;
-    background-color: #191C26;
-    color: white;
-}
+
 
 .contactUs-column {
     margin: 0 auto;
@@ -289,6 +301,7 @@ div.service-card p {
     text-align: center;
 }
 
+/* FORM */
 
 form {
     display: flex;
@@ -314,13 +327,4 @@ input {
 
 textarea {
     min-width: 100%;
-}
-
-.fa-solid {
-    margin-bottom: 25px;
-}
-
-.punto {
-    color: #FF6400;
-    font-size: 1.2em;
 }
