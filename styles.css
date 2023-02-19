@@ -72,33 +72,18 @@ h3 {
 }
 
 .first-button {
-    padding: 20px 40px;
-    border-radius: 50px;
-    color: white;
-    background: linear-gradient(to right, #FF6400, #DA0000);
     border: 3px solid white;
-    font-size: 1.2em;
 }
 
-.second-button {
-    padding: 15px 30px;
-    border-radius: 30px;
-    color: white;
-    background: linear-gradient(to right, #FF6400, #DA0000);
-    border: none;
-    font-family: Poppins;
-}
+/* SECTIONS STRUCTURE */
 
-
-/* SECTIONS */
-
-.first-section {
+.hero-section {
     background-color: black;
     display: flex;
     justify-content: center;
 }
 
-.second-section {
+.cards-section {
     background-color: black;
     color: white;
     display: flex;
@@ -107,7 +92,7 @@ h3 {
     padding: 5% 20%;
 }
 
-.third-section {
+.aboutUs-section {
     background-color: #191C26;
     color: white;
     display: flex;
@@ -116,7 +101,7 @@ h3 {
     padding: 80px;
 }
 
-.fourth-section {
+.services-section {
     background-color: #000000;
     color: white;
     display: flex;
@@ -152,7 +137,7 @@ h3 {
 
 
 
-
+/* CARDS */
 
 .card {
     padding: 2.5rem 2rem;
@@ -176,14 +161,46 @@ h3 {
     background: linear-gradient(to right, #FF6400, #DA0000);
 }
 
-.third-section p {
+div.service-card img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+div.service-card h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+div.service-card p {
+    text-align: center;
+}
+
+.service-card {
+    background-color: #16163C;
+    width: 24%;
+    margin: 0px;
+    padding: 0 2% 5%;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+.aboutUs-section p {
     margin: 25px 0;
 }
 
 
 
-.first-column-fourth-section,
-.second-column-fourth-section {
+.first-column-services-section,
+.second-column-services-section {
     width: 50%;
     height: 200px;
     display: flex;
@@ -191,7 +208,7 @@ h3 {
 
 }
 
-.third-column-fourth-section {
+.third-column-services-section {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -203,14 +220,7 @@ h3 {
     max-width: 30%;
 }
 
-.service-card {
-    background-color: #16163C;
-    width: 24%;
-    margin: 0px;
-    padding: 0 2% 5%;
-    border-radius: 20px;
 
-}
 
 
 
@@ -283,23 +293,7 @@ h3 {
 }
 
 
-div.service-card img {
-    width: 40%;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20px;
-    position: relative;
-    bottom: 40px;
-}
 
-div.service-card h4 {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-div.service-card p {
-    text-align: center;
-}
 
 /* FORM */
 
