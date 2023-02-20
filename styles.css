@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
 
+/************************************/
 /* GLOBAL SETTINGS */
+/************************************/
+
+:root {
+    --orangeRed: linear-gradient(to right, #FF6400, #DA0000);
+}
 
 * {
     margin: 0px;
@@ -8,13 +14,14 @@
     box-sizing: border-box;
 }
 
+
+
 html {
     font-family: 'Poppins';
+    color: white;
 }
 
 h1 {
-
-    color: white;
     font-size: 6rem;
     font-family: Poppins, sans-serif;
     margin: 0px;
@@ -26,12 +33,96 @@ h3 {
     line-height: 1.2;
 }
 
-.first-p {
-    color: white;
-    text-align: center;
-    padding: 0 20%;
-    font-family: Poppins;
+.fa-solid {
+    margin-bottom: 25px;
 }
+
+.punto {
+    color: #FF6400;
+    font-size: 1.2em;
+}
+
+/************************************/
+/* BUTTONS */
+/************************************/
+
+.button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    background: var(--orangeRed);
+    border: none;
+    width: 10em;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.first-button {
+    border: 3px solid white;
+}
+
+/************************************/
+/* SECTIONS STRUCTURE */
+/************************************/
+
+.hero-section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-section {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding: 5% 20%;
+}
+
+.aboutUs-section {
+    background-color: #191C26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.services-section {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5% 20%;
+}
+
+.portfolio {
+    background-color: #191C26;
+    display: flex;
+    justify-content: center;
+    padding: 5% 20%;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 5% 20%;
+}
+
+.contact-us {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5% 0;
+    background-color: #191C26;
+}
+
+/************************************/
+/* COLUMNS */
+/************************************/
 
 .first-row {
     width: 80vw;
@@ -47,97 +138,73 @@ h3 {
     align-content: center;
 }
 
-.fa-solid {
-    margin-bottom: 25px;
+.first-column-services-section,
+.second-column-services-section {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
-.punto {
-    color: #FF6400;
-    font-size: 1.2em;
-}
-
-/* BUTTONS */
-
-.button {
-    padding: 15px 30px;
-    border-radius: 30px;
-    color: white;
-    background: linear-gradient(to right, #FF6400, #DA0000);
-    border: none;
-    font-family: Poppins;
-    width: 10em;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 30px;
-}
-
-.first-button {
-    border: 3px solid white;
-}
-
-/* SECTIONS STRUCTURE */
-
-.hero-section {
-    background-color: black;
+.second-column-fourth-section {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
-.cards-section {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    padding: 5% 20%;
-}
-
-.aboutUs-section {
-    background-color: #191C26;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px;
-}
-
-.services-section {
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+.third-column-services-section {
     width: 100%;
-    padding: 5% 20%;
-}
-
-.portfolio {
-    background-color: #191C26;
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding: 5% 20%;
-}
-
-.testimonial {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin-top: 20%;
+}
+
+.aboutUs-section p {
+    margin: 25px 0;
+}
+
+.about-us-columns {
+    max-width: 30%;
+}
+
+.portfolio-column {
+    width: 50%;
+}
+
+.portfolio-column-1 {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-column-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: black;
-    padding: 5% 20%;
+    margin-bottom: 5%;
 }
 
-.contact-us {
-    max-width: 100%;
-    margin: 0 auto;
-    background-color: #191C26;
-    color: white;
+.testimonial-column-2,
+.testimonial-column-3 {
+    width: 48%;
+    height: auto;
+    background: var(--orangeRed);
+    border-radius: 20px;
+    padding: 4%;
 }
 
+.contactUs-column {
+    margin: 0% auto;
+    width: 60%;
+    text-align: center;
+}
 
-
+/************************************/
 /* CARDS */
+/************************************/
 
 .card {
     padding: 2.5rem 2rem;
@@ -158,7 +225,7 @@ h3 {
 }
 
 .second-card {
-    background: linear-gradient(to right, #FF6400, #DA0000);
+    background: var(--orangeRed);
 }
 
 div.service-card img {
@@ -185,89 +252,26 @@ div.service-card p {
     margin: 0px;
     padding: 0 2% 5%;
     border-radius: 20px;
-
 }
 
+/************************************/
+/* SINGLE ELEMENTS */
+/************************************/
 
-
-
-
-
-.aboutUs-section p {
-    margin: 25px 0;
+.first-p {
+    text-align: center;
+    padding: 0 20%;
 }
-
-
-
-.first-column-services-section,
-.second-column-services-section {
-    width: 50%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.third-column-services-section {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
-}
-
-
-.about-us-columns {
-    max-width: 30%;
-}
-
-
-
-
-
-.portfolio-column {
-    width: 50%;
-}
-
-.portfolio-column-1 {
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 
 .portfolio-img {
     width: 32%;
     display: inline-block;
     padding: 1.2%;
-
 }
 
 .portfolio-img img {
     width: 100%;
     border-radius: 10%;
-}
-
-
-
-.testimonial-column-1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: black;
-    color: white;
-    margin-bottom: 5%;
-}
-
-.testimonial-column-2,
-.testimonial-column-3 {
-    width: 48%;
-    height: auto;
-    background: linear-gradient(to right, #FF6400, #DA0000);
-    color: white;
-    border-radius: 20px;
-    padding: 4%;
 }
 
 .testimonial img {
@@ -277,25 +281,9 @@ div.service-card p {
     margin: 10px;
 }
 
-
-
-.contactUs-column {
-    margin: 0 auto;
-    width: 60%;
-    text-align: center;
-}
-
-
-
-.second-column-fourth-section {
-    justify-content: center;
-    align-items: flex-end;
-}
-
-
-
-
+/************************************/
 /* FORM */
+/************************************/
 
 form {
     display: flex;
