@@ -14,11 +14,13 @@
     box-sizing: border-box;
 }
 
-
-
 html {
     font-family: 'Poppins';
     color: white;
+}
+
+body {
+    width: 100%;
 }
 
 h1 {
@@ -75,17 +77,18 @@ h3 {
 .cards-section {
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 2rem;
     padding: 5% 10%;
 }
 
 .aboutUs-section {
     background-color: #191C26;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 80px;
+    padding: 5% 10%;
 }
 
 .services-section {
@@ -163,7 +166,7 @@ h3 {
     margin: 25px 0;
 }
 
-.about-us-columns {
+.aboutUs-columns {
     max-width: 30%;
 }
 
@@ -309,4 +312,25 @@ input {
 
 textarea {
     min-width: 100%;
+}
+
+/************************************/
+/* MEDIA QUERIES*/
+/************************************/
+
+@media only screen and (max-width: 480px) {
+
+    .cards-section {
+        padding: 5% 5%;
+    }
+
+    .card {
+        padding: 1rem;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .aboutUs-section div {
+        width: 100%;
+    }
 }
